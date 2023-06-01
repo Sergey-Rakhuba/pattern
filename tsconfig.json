@@ -1,0 +1,12 @@
+{
+   "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "lib": ["es6"],
+        "sourceMap": true, // true means that will be generating debug information(map file). And you can debug application with breakpoints.
+        "outDir": "./build"
+   },
+   "exclude": [
+        "node_modules"
+   ]
+}
